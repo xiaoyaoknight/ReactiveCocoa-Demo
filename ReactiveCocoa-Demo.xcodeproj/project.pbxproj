@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71600202320F06300347F02 /* TestViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = C716001F2320F06300347F02 /* TestViewController4.m */; };
+		C71600232320F06F00347F02 /* TestViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600222320F06F00347F02 /* TestViewController5.m */; };
+		C71600262320F07E00347F02 /* TestViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600252320F07E00347F02 /* TestViewController6.m */; };
+		C716002C2320F16900347F02 /* TestViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = C716002B2320F16900347F02 /* TestViewController7.m */; };
+		C716002F2320F17A00347F02 /* TestViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = C716002E2320F17A00347F02 /* TestViewController8.m */; };
+		C71600322320F18300347F02 /* TestViewController9.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600312320F18300347F02 /* TestViewController9.m */; };
+		C71600352320F18D00347F02 /* TestViewController10.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600342320F18D00347F02 /* TestViewController10.m */; };
+		C71600382320F19700347F02 /* TestViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600372320F19700347F02 /* TestViewController11.m */; };
+		C716003B2320F19F00347F02 /* TestViewController12.m in Sources */ = {isa = PBXBuildFile; fileRef = C716003A2320F19F00347F02 /* TestViewController12.m */; };
+		C716003E2320F1AA00347F02 /* TestViewController13.m in Sources */ = {isa = PBXBuildFile; fileRef = C716003D2320F1AA00347F02 /* TestViewController13.m */; };
+		C71600412320F1B600347F02 /* TestViewController14.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600402320F1B600347F02 /* TestViewController14.m */; };
+		C71600442320F1C100347F02 /* TestViewController15.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600432320F1C100347F02 /* TestViewController15.m */; };
+		C71600502320F26100347F02 /* TestViewController16.m in Sources */ = {isa = PBXBuildFile; fileRef = C716004F2320F26100347F02 /* TestViewController16.m */; };
+		C71600532320F26B00347F02 /* TestViewController17.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600522320F26B00347F02 /* TestViewController17.m */; };
+		C71600562320F27900347F02 /* TestViewController18.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600552320F27900347F02 /* TestViewController18.m */; };
+		C71600592320F28300347F02 /* TestViewController19.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600582320F28300347F02 /* TestViewController19.m */; };
+		C71600602320FB9200347F02 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = C716005F2320FB9200347F02 /* flags.plist */; };
+		C71600632320FBD300347F02 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600622320FBD300347F02 /* FlagItem.m */; };
+		C740CFE6231FA7BF00BF2235 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C740CFE5231FA7BF00BF2235 /* TestViewController1.m */; };
+		C740CFEA231FB37100BF2235 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C740CFE9231FB37100BF2235 /* TestViewController2.m */; };
+		C740CFED231FB37E00BF2235 /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C740CFEC231FB37E00BF2235 /* TestViewController3.m */; };
 		C747BB5C22E84E8E0012999D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB5B22E84E8E0012999D /* AppDelegate.m */; };
 		C747BB5F22E84E8E0012999D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB5E22E84E8E0012999D /* ViewController.m */; };
 		C747BB6222E84E8E0012999D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C747BB6022E84E8E0012999D /* Main.storyboard */; };
@@ -15,6 +36,8 @@
 		C747BB6A22E84E8F0012999D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB6922E84E8F0012999D /* main.m */; };
 		C747BB7422E84E8F0012999D /* ReactiveCocoa_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB7322E84E8F0012999D /* ReactiveCocoa_DemoTests.m */; };
 		C747BB7F22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB7E22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m */; };
+		C79AB9FA2320DE1700AD7BCA /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AB9F92320DE1700AD7BCA /* TestView.m */; };
+		EE7D97250DD9A20220A1E7A3 /* Pods_ReactiveCocoa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140A3EB947B0C3FE1F0FD93C /* Pods-ReactiveCocoa-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		22DE8FE525383F967F5B413C /* Pods-ReactiveCocoa-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoa_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C716001E2320F06300347F02 /* TestViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController4.h; sourceTree = "<group>"; };
+		C716001F2320F06300347F02 /* TestViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController4.m; sourceTree = "<group>"; };
+		C71600212320F06F00347F02 /* TestViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController5.h; sourceTree = "<group>"; };
+		C71600222320F06F00347F02 /* TestViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController5.m; sourceTree = "<group>"; };
+		C71600242320F07E00347F02 /* TestViewController6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController6.h; sourceTree = "<group>"; };
+		C71600252320F07E00347F02 /* TestViewController6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController6.m; sourceTree = "<group>"; };
+		C716002A2320F16900347F02 /* TestViewController7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController7.h; sourceTree = "<group>"; };
+		C716002B2320F16900347F02 /* TestViewController7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController7.m; sourceTree = "<group>"; };
+		C716002D2320F17A00347F02 /* TestViewController8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController8.h; sourceTree = "<group>"; };
+		C716002E2320F17A00347F02 /* TestViewController8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController8.m; sourceTree = "<group>"; };
+		C71600302320F18300347F02 /* TestViewController9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController9.h; sourceTree = "<group>"; };
+		C71600312320F18300347F02 /* TestViewController9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController9.m; sourceTree = "<group>"; };
+		C71600332320F18D00347F02 /* TestViewController10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController10.h; sourceTree = "<group>"; };
+		C71600342320F18D00347F02 /* TestViewController10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController10.m; sourceTree = "<group>"; };
+		C71600362320F19700347F02 /* TestViewController11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController11.h; sourceTree = "<group>"; };
+		C71600372320F19700347F02 /* TestViewController11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController11.m; sourceTree = "<group>"; };
+		C71600392320F19F00347F02 /* TestViewController12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController12.h; sourceTree = "<group>"; };
+		C716003A2320F19F00347F02 /* TestViewController12.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController12.m; sourceTree = "<group>"; };
+		C716003C2320F1AA00347F02 /* TestViewController13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController13.h; sourceTree = "<group>"; };
+		C716003D2320F1AA00347F02 /* TestViewController13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController13.m; sourceTree = "<group>"; };
+		C716003F2320F1B600347F02 /* TestViewController14.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController14.h; sourceTree = "<group>"; };
+		C71600402320F1B600347F02 /* TestViewController14.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController14.m; sourceTree = "<group>"; };
+		C71600422320F1C100347F02 /* TestViewController15.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController15.h; sourceTree = "<group>"; };
+		C71600432320F1C100347F02 /* TestViewController15.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController15.m; sourceTree = "<group>"; };
+		C716004E2320F26100347F02 /* TestViewController16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController16.h; sourceTree = "<group>"; };
+		C716004F2320F26100347F02 /* TestViewController16.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController16.m; sourceTree = "<group>"; };
+		C71600512320F26B00347F02 /* TestViewController17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController17.h; sourceTree = "<group>"; };
+		C71600522320F26B00347F02 /* TestViewController17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController17.m; sourceTree = "<group>"; };
+		C71600542320F27900347F02 /* TestViewController18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController18.h; sourceTree = "<group>"; };
+		C71600552320F27900347F02 /* TestViewController18.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController18.m; sourceTree = "<group>"; };
+		C71600572320F28300347F02 /* TestViewController19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController19.h; sourceTree = "<group>"; };
+		C71600582320F28300347F02 /* TestViewController19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController19.m; sourceTree = "<group>"; };
+		C716005F2320FB9200347F02 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		C71600612320FBD300347F02 /* FlagItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagItem.h; sourceTree = "<group>"; };
+		C71600622320FBD300347F02 /* FlagItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagItem.m; sourceTree = "<group>"; };
+		C740CFE4231FA7BF00BF2235 /* TestViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		C740CFE5231FA7BF00BF2235 /* TestViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		C740CFE8231FB37100BF2235 /* TestViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		C740CFE9231FB37100BF2235 /* TestViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		C740CFEB231FB37E00BF2235 /* TestViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
+		C740CFEC231FB37E00BF2235 /* TestViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
 		C747BB5722E84E8E0012999D /* ReactiveCocoa-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveCocoa-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C747BB5A22E84E8E0012999D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C747BB5B22E84E8E0012999D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +118,8 @@
 		C747BB7A22E84E8F0012999D /* ReactiveCocoa-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C747BB7E22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoa_DemoUITests.m; sourceTree = "<group>"; };
 		C747BB8022E84E8F0012999D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79AB9F82320DE1700AD7BCA /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		C79AB9F92320DE1700AD7BCA /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7D97250DD9A20220A1E7A3 /* Pods_ReactiveCocoa_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +148,199 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37AB39FB0A44070044F9024C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A224B1736E0D4B82DB0E364D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				140A3EB947B0C3FE1F0FD93C /* Pods-ReactiveCocoa-Demo.debug.xcconfig */,
+				22DE8FE525383F967F5B413C /* Pods-ReactiveCocoa-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C71600272320F11900347F02 /* RAC集合 */ = {
+			isa = PBXGroup;
+			children = (
+				C716005F2320FB9200347F02 /* flags.plist */,
+				C716001E2320F06300347F02 /* TestViewController4.h */,
+				C716001F2320F06300347F02 /* TestViewController4.m */,
+				C71600612320FBD300347F02 /* FlagItem.h */,
+				C71600622320FBD300347F02 /* FlagItem.m */,
+			);
+			path = "RAC集合";
+			sourceTree = "<group>";
+		};
+		C71600282320F12F00347F02 /* RACMulticastConnection使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C71600212320F06F00347F02 /* TestViewController5.h */,
+				C71600222320F06F00347F02 /* TestViewController5.m */,
+			);
+			name = "RACMulticastConnection使用";
+			sourceTree = "<group>";
+		};
+		C71600292320F14000347F02 /* RACMulticastConnection原理 */ = {
+			isa = PBXGroup;
+			children = (
+				C71600242320F07E00347F02 /* TestViewController6.h */,
+				C71600252320F07E00347F02 /* TestViewController6.m */,
+			);
+			name = "RACMulticastConnection原理";
+			sourceTree = "<group>";
+		};
+		C71600452320F1D700347F02 /* RACCommand使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C716002A2320F16900347F02 /* TestViewController7.h */,
+				C716002B2320F16900347F02 /* TestViewController7.m */,
+			);
+			name = "RACCommand使用";
+			sourceTree = "<group>";
+		};
+		C71600462320F1E200347F02 /* RACCommand原理 */ = {
+			isa = PBXGroup;
+			children = (
+				C716002D2320F17A00347F02 /* TestViewController8.h */,
+				C716002E2320F17A00347F02 /* TestViewController8.m */,
+			);
+			name = "RACCommand原理";
+			sourceTree = "<group>";
+		};
+		C71600472320F1EF00347F02 /* RACCommand(场景) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600302320F18300347F02 /* TestViewController9.h */,
+				C71600312320F18300347F02 /* TestViewController9.m */,
+			);
+			name = "RACCommand(场景)";
+			sourceTree = "<group>";
+		};
+		C71600482320F1FB00347F02 /* rac_signalForSelector */ = {
+			isa = PBXGroup;
+			children = (
+				C71600332320F18D00347F02 /* TestViewController10.h */,
+				C71600342320F18D00347F02 /* TestViewController10.m */,
+			);
+			name = rac_signalForSelector;
+			sourceTree = "<group>";
+		};
+		C71600492320F21000347F02 /* RAC(KVO) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600362320F19700347F02 /* TestViewController11.h */,
+				C71600372320F19700347F02 /* TestViewController11.m */,
+			);
+			name = "RAC(KVO)";
+			sourceTree = "<group>";
+		};
+		C716004A2320F21F00347F02 /* RAC(监听事件) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600392320F19F00347F02 /* TestViewController12.h */,
+				C716003A2320F19F00347F02 /* TestViewController12.m */,
+			);
+			name = "RAC(监听事件)";
+			sourceTree = "<group>";
+		};
+		C716004B2320F22E00347F02 /* RAC(通知) */ = {
+			isa = PBXGroup;
+			children = (
+				C716003C2320F1AA00347F02 /* TestViewController13.h */,
+				C716003D2320F1AA00347F02 /* TestViewController13.m */,
+			);
+			name = "RAC(通知)";
+			sourceTree = "<group>";
+		};
+		C716004C2320F23B00347F02 /* RAC(绑定信号) */ = {
+			isa = PBXGroup;
+			children = (
+				C716003F2320F1B600347F02 /* TestViewController14.h */,
+				C71600402320F1B600347F02 /* TestViewController14.m */,
+			);
+			name = "RAC(绑定信号)";
+			sourceTree = "<group>";
+		};
+		C716004D2320F24600347F02 /* RAC(rac_liftSelector) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600422320F1C100347F02 /* TestViewController15.h */,
+				C71600432320F1C100347F02 /* TestViewController15.m */,
+			);
+			name = "RAC(rac_liftSelector)";
+			sourceTree = "<group>";
+		};
+		C716005A2320F28900347F02 /* 框架思想 */ = {
+			isa = PBXGroup;
+			children = (
+				C716004E2320F26100347F02 /* TestViewController16.h */,
+				C716004F2320F26100347F02 /* TestViewController16.m */,
+			);
+			name = "框架思想";
+			sourceTree = "<group>";
+		};
+		C716005B2320F29F00347F02 /* RAC+MVVM(封装请求) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600512320F26B00347F02 /* TestViewController17.h */,
+				C71600522320F26B00347F02 /* TestViewController17.m */,
+			);
+			name = "RAC+MVVM(封装请求)";
+			sourceTree = "<group>";
+		};
+		C716005C2320F2AA00347F02 /* RAC+MVVM(抽控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600542320F27900347F02 /* TestViewController18.h */,
+				C71600552320F27900347F02 /* TestViewController18.m */,
+			);
+			name = "RAC+MVVM(抽控制器)";
+			sourceTree = "<group>";
+		};
+		C716005D2320F2B700347F02 /* RAC+MVVM(抽取View) */ = {
+			isa = PBXGroup;
+			children = (
+				C71600572320F28300347F02 /* TestViewController19.h */,
+				C71600582320F28300347F02 /* TestViewController19.m */,
+			);
+			name = "RAC+MVVM(抽取View)";
+			sourceTree = "<group>";
+		};
+		C716FFDE2320E44600347F02 /* RACSubject替换代理 */ = {
+			isa = PBXGroup;
+			children = (
+				C740CFEB231FB37E00BF2235 /* TestViewController3.h */,
+				C740CFEC231FB37E00BF2235 /* TestViewController3.m */,
+				C79AB9F82320DE1700AD7BCA /* TestView.h */,
+				C79AB9F92320DE1700AD7BCA /* TestView.m */,
+			);
+			path = "RACSubject替换代理";
+			sourceTree = "<group>";
+		};
+		C716FFDF2320E9D600347F02 /* RACSubjectAndRACReplaySubject */ = {
+			isa = PBXGroup;
+			children = (
+				C740CFE8231FB37100BF2235 /* TestViewController2.h */,
+				C740CFE9231FB37100BF2235 /* TestViewController2.m */,
+			);
+			name = RACSubjectAndRACReplaySubject;
+			sourceTree = "<group>";
+		};
+		C740CFE7231FB17B00BF2235 /* RACSignal */ = {
+			isa = PBXGroup;
+			children = (
+				C740CFE4231FA7BF00BF2235 /* TestViewController1.h */,
+				C740CFE5231FA7BF00BF2235 /* TestViewController1.m */,
+			);
+			name = RACSignal;
+			sourceTree = "<group>";
+		};
 		C747BB4E22E84E8D0012999D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +348,8 @@
 				C747BB7222E84E8F0012999D /* ReactiveCocoa-DemoTests */,
 				C747BB7D22E84E8F0012999D /* ReactiveCocoa-DemoUITests */,
 				C747BB5822E84E8E0012999D /* Products */,
+				A224B1736E0D4B82DB0E364D /* Pods */,
+				37AB39FB0A44070044F9024C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +370,25 @@
 				C747BB5B22E84E8E0012999D /* AppDelegate.m */,
 				C747BB5D22E84E8E0012999D /* ViewController.h */,
 				C747BB5E22E84E8E0012999D /* ViewController.m */,
+				C740CFE7231FB17B00BF2235 /* RACSignal */,
+				C716FFDF2320E9D600347F02 /* RACSubjectAndRACReplaySubject */,
+				C716FFDE2320E44600347F02 /* RACSubject替换代理 */,
+				C71600272320F11900347F02 /* RAC集合 */,
+				C71600282320F12F00347F02 /* RACMulticastConnection使用 */,
+				C71600292320F14000347F02 /* RACMulticastConnection原理 */,
+				C71600452320F1D700347F02 /* RACCommand使用 */,
+				C71600462320F1E200347F02 /* RACCommand原理 */,
+				C71600472320F1EF00347F02 /* RACCommand(场景) */,
+				C71600482320F1FB00347F02 /* rac_signalForSelector */,
+				C71600492320F21000347F02 /* RAC(KVO) */,
+				C716004A2320F21F00347F02 /* RAC(监听事件) */,
+				C716004B2320F22E00347F02 /* RAC(通知) */,
+				C716004C2320F23B00347F02 /* RAC(绑定信号) */,
+				C716004D2320F24600347F02 /* RAC(rac_liftSelector) */,
+				C716005A2320F28900347F02 /* 框架思想 */,
+				C716005B2320F29F00347F02 /* RAC+MVVM(封装请求) */,
+				C716005C2320F2AA00347F02 /* RAC+MVVM(抽控制器) */,
+				C716005D2320F2B700347F02 /* RAC+MVVM(抽取View) */,
 				C747BB6022E84E8E0012999D /* Main.storyboard */,
 				C747BB6322E84E8F0012999D /* Assets.xcassets */,
 				C747BB6522E84E8F0012999D /* LaunchScreen.storyboard */,
@@ -139,9 +423,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C747BB8322E84E8F0012999D /* Build configuration list for PBXNativeTarget "ReactiveCocoa-Demo" */;
 			buildPhases = (
+				A8966EBD5211EF22521B44C6 /* [CP] Check Pods Manifest.lock */,
 				C747BB5322E84E8E0012999D /* Sources */,
 				C747BB5422E84E8E0012999D /* Frameworks */,
 				C747BB5522E84E8E0012999D /* Resources */,
+				83FD25BEBA4EF1B636AF4829 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +523,7 @@
 			files = (
 				C747BB6722E84E8F0012999D /* LaunchScreen.storyboard in Resources */,
 				C747BB6422E84E8F0012999D /* Assets.xcassets in Resources */,
+				C71600602320FB9200347F02 /* flags.plist in Resources */,
 				C747BB6222E84E8E0012999D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +544,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83FD25BEBA4EF1B636AF4829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8966EBD5211EF22521B44C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveCocoa-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C747BB5322E84E8E0012999D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79AB9FA2320DE1700AD7BCA /* TestView.m in Sources */,
+				C740CFE6231FA7BF00BF2235 /* TestViewController1.m in Sources */,
+				C71600532320F26B00347F02 /* TestViewController17.m in Sources */,
+				C740CFEA231FB37100BF2235 /* TestViewController2.m in Sources */,
+				C716003B2320F19F00347F02 /* TestViewController12.m in Sources */,
+				C71600202320F06300347F02 /* TestViewController4.m in Sources */,
+				C71600322320F18300347F02 /* TestViewController9.m in Sources */,
+				C71600232320F06F00347F02 /* TestViewController5.m in Sources */,
+				C716002C2320F16900347F02 /* TestViewController7.m in Sources */,
+				C71600562320F27900347F02 /* TestViewController18.m in Sources */,
 				C747BB5F22E84E8E0012999D /* ViewController.m in Sources */,
+				C716002F2320F17A00347F02 /* TestViewController8.m in Sources */,
+				C71600352320F18D00347F02 /* TestViewController10.m in Sources */,
+				C71600502320F26100347F02 /* TestViewController16.m in Sources */,
+				C71600412320F1B600347F02 /* TestViewController14.m in Sources */,
 				C747BB6A22E84E8F0012999D /* main.m in Sources */,
+				C71600442320F1C100347F02 /* TestViewController15.m in Sources */,
+				C71600382320F19700347F02 /* TestViewController11.m in Sources */,
+				C740CFED231FB37E00BF2235 /* TestViewController3.m in Sources */,
 				C747BB5C22E84E8E0012999D /* AppDelegate.m in Sources */,
+				C71600592320F28300347F02 /* TestViewController19.m in Sources */,
+				C71600262320F07E00347F02 /* TestViewController6.m in Sources */,
+				C71600632320FBD300347F02 /* FlagItem.m in Sources */,
+				C716003E2320F1AA00347F02 /* TestViewController13.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +788,7 @@
 		};
 		C747BB8422E84E8F0012999D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140A3EB947B0C3FE1F0FD93C /* Pods-ReactiveCocoa-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +805,7 @@
 		};
 		C747BB8522E84E8F0012999D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DE8FE525383F967F5B413C /* Pods-ReactiveCocoa-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
