@@ -22,6 +22,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self test];
+    [self test1];
 }
 
 - (void)test {
@@ -48,5 +49,32 @@
     //        // 不管使用谁的框架,一定要记得确认线程,UI界面不显示,可能线程问题
     //
     //    }];
+}
+
+- (void)test1 {
+    NSDictionary *dict = @{
+                           @"name" : @"wangsicong",
+                           @"money": @100000000
+                           };
+    
+    // RACTuple:元组
+    [dict.rac_sequence.signal subscribeNext:^(RACTuple * _Nullable x) {
+        
+        // 把元组解析出来
+        RACTupleUnpack(NSString *key,id value) = x;
+        
+        /*
+         NSString *key = x[0]
+         id value = x[1]
+         */
+        
+        NSLog(@"%@ %@",key,value);
+    }];
+    
+    // 把值包装成元组
+    RACTuple *tuple = RACTuplePack(@1,@3,@3);
+    
+    NSLog(@"%@",tuple);
+    
 }
 @end
