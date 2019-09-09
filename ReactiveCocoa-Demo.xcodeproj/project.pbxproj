@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C701F1C723264CB90036F632 /* TestViewController10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C701F1C623264CB90036F632 /* TestViewController10.storyboard */; };
 		C71600202320F06300347F02 /* TestViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = C716001F2320F06300347F02 /* TestViewController4.m */; };
 		C71600232320F06F00347F02 /* TestViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600222320F06F00347F02 /* TestViewController5.m */; };
 		C71600262320F07E00347F02 /* TestViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = C71600252320F07E00347F02 /* TestViewController6.m */; };
@@ -61,6 +62,7 @@
 		140A3EB947B0C3FE1F0FD93C /* Pods-ReactiveCocoa-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		22DE8FE525383F967F5B413C /* Pods-ReactiveCocoa-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-Demo/Pods-ReactiveCocoa-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoa_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C701F1C623264CB90036F632 /* TestViewController10.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestViewController10.storyboard; sourceTree = "<group>"; };
 		C716001E2320F06300347F02 /* TestViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController4.h; sourceTree = "<group>"; };
 		C716001F2320F06300347F02 /* TestViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController4.m; sourceTree = "<group>"; };
 		C71600212320F06F00347F02 /* TestViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController5.h; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				C71600332320F18D00347F02 /* TestViewController10.h */,
 				C71600342320F18D00347F02 /* TestViewController10.m */,
+				C701F1C623264CB90036F632 /* TestViewController10.storyboard */,
 			);
 			name = rac_signalForSelector;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				C747BB6722E84E8F0012999D /* LaunchScreen.storyboard in Resources */,
 				C747BB6422E84E8F0012999D /* Assets.xcassets in Resources */,
 				C71600602320FB9200347F02 /* flags.plist in Resources */,
+				C701F1C723264CB90036F632 /* TestViewController10.storyboard in Resources */,
 				C747BB6222E84E8E0012999D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

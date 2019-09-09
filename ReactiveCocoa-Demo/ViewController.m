@@ -112,7 +112,9 @@
  rac_signalForSelector
  */
 - (IBAction)rac_signal:(id)sender {
-    [self.navigationController pushViewController:[TestViewController10 new] animated:YES];
+    UIStoryboard *czsb = [UIStoryboard storyboardWithName:@"TestViewController10" bundle:nil];
+    TestViewController10 *test10 = [czsb instantiateViewControllerWithIdentifier:@"TestViewController10"];
+    [self.navigationController pushViewController:test10 animated:YES];
 }
 
 /**
