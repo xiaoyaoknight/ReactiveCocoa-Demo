@@ -137,7 +137,9 @@
  RAC(通知)
  */
 - (IBAction)notification:(id)sender {
-    [self.navigationController pushViewController:[TestViewController13 new] animated:YES];
+    UIStoryboard *czsb = [UIStoryboard storyboardWithName:@"TestViewController13" bundle:nil];
+    TestViewController13 *test13 = [czsb instantiateViewControllerWithIdentifier:@"TestViewController13"];
+    [self.navigationController pushViewController:test13 animated:YES];
 }
 
 /**

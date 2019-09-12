@@ -9,6 +9,7 @@
 #import "TestViewController13.h"
 
 @interface TestViewController13 ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -19,16 +20,15 @@
     // Do any additional setup after loading the view.
     self.title = @"RAC-通知";
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self test];
 }
 
-/*
-#pragma mark - Navigation
+- (void)test {
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    //监听文本框
+    [[self.textField rac_textSignal] subscribeNext:^(NSString * _Nullable x) {
+        NSLog(@"监听文本框:%@",x);
+    }];
 }
-*/
-
 @end
