@@ -121,7 +121,9 @@
  kvo
  */
 - (IBAction)kvo:(id)sender {
-    [self.navigationController pushViewController:[TestViewController11 new] animated:YES];
+    UIStoryboard *czsb = [UIStoryboard storyboardWithName:@"TestViewController11" bundle:nil];
+    TestViewController11 *test11 = [czsb instantiateViewControllerWithIdentifier:@"TestViewController11"];
+    [self.navigationController pushViewController:test11 animated:YES];
 }
 
 /**

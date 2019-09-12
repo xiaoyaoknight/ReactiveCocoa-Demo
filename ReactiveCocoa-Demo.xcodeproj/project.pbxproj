@@ -37,6 +37,8 @@
 		C747BB6A22E84E8F0012999D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB6922E84E8F0012999D /* main.m */; };
 		C747BB7422E84E8F0012999D /* ReactiveCocoa_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB7322E84E8F0012999D /* ReactiveCocoa_DemoTests.m */; };
 		C747BB7F22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C747BB7E22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m */; };
+		C762A91E232A3984004503C5 /* TestViewController11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C762A91D232A3984004503C5 /* TestViewController11.storyboard */; };
+		C762A921232A4372004503C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C762A920232A4372004503C5 /* Person.m */; };
 		C79AB9FA2320DE1700AD7BCA /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AB9F92320DE1700AD7BCA /* TestView.m */; };
 		EE7D97250DD9A20220A1E7A3 /* Pods_ReactiveCocoa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -120,6 +122,9 @@
 		C747BB7A22E84E8F0012999D /* ReactiveCocoa-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C747BB7E22E84E8F0012999D /* ReactiveCocoa_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoa_DemoUITests.m; sourceTree = "<group>"; };
 		C747BB8022E84E8F0012999D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C762A91D232A3984004503C5 /* TestViewController11.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestViewController11.storyboard; sourceTree = "<group>"; };
+		C762A91F232A4372004503C5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C762A920232A4372004503C5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C79AB9F82320DE1700AD7BCA /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C79AB9F92320DE1700AD7BCA /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,6 +244,9 @@
 			children = (
 				C71600362320F19700347F02 /* TestViewController11.h */,
 				C71600372320F19700347F02 /* TestViewController11.m */,
+				C762A91D232A3984004503C5 /* TestViewController11.storyboard */,
+				C762A91F232A4372004503C5 /* Person.h */,
+				C762A920232A4372004503C5 /* Person.m */,
 			);
 			name = "RAC(KVO)";
 			sourceTree = "<group>";
@@ -529,6 +537,7 @@
 				C71600602320FB9200347F02 /* flags.plist in Resources */,
 				C701F1C723264CB90036F632 /* TestViewController10.storyboard in Resources */,
 				C747BB6222E84E8E0012999D /* Main.storyboard in Resources */,
+				C762A91E232A3984004503C5 /* TestViewController11.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +621,7 @@
 				C71600562320F27900347F02 /* TestViewController18.m in Sources */,
 				C747BB5F22E84E8E0012999D /* ViewController.m in Sources */,
 				C716002F2320F17A00347F02 /* TestViewController8.m in Sources */,
+				C762A921232A4372004503C5 /* Person.m in Sources */,
 				C71600352320F18D00347F02 /* TestViewController10.m in Sources */,
 				C71600502320F26100347F02 /* TestViewController16.m in Sources */,
 				C71600412320F1B600347F02 /* TestViewController14.m in Sources */,
