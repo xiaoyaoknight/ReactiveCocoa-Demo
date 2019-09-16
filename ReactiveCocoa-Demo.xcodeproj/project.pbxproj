@@ -40,6 +40,7 @@
 		C762A91E232A3984004503C5 /* TestViewController11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C762A91D232A3984004503C5 /* TestViewController11.storyboard */; };
 		C762A921232A4372004503C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C762A920232A4372004503C5 /* Person.m */; };
 		C762A923232A4BD5004503C5 /* TestViewController13.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C762A922232A4BD5004503C5 /* TestViewController13.storyboard */; };
+		C762A928232F692F004503C5 /* TestViewController14.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C762A927232F692F004503C5 /* TestViewController14.storyboard */; };
 		C79AB9FA2320DE1700AD7BCA /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AB9F92320DE1700AD7BCA /* TestView.m */; };
 		EE7D97250DD9A20220A1E7A3 /* Pods_ReactiveCocoa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4166E0E6CA5DF6EAA72BB4CD /* Pods_ReactiveCocoa_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -127,6 +128,7 @@
 		C762A91F232A4372004503C5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		C762A920232A4372004503C5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C762A922232A4BD5004503C5 /* TestViewController13.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestViewController13.storyboard; sourceTree = "<group>"; };
+		C762A927232F692F004503C5 /* TestViewController14.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestViewController14.storyboard; sourceTree = "<group>"; };
 		C79AB9F82320DE1700AD7BCA /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		C79AB9F92320DE1700AD7BCA /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,6 +279,7 @@
 			children = (
 				C716003F2320F1B600347F02 /* TestViewController14.h */,
 				C71600402320F1B600347F02 /* TestViewController14.m */,
+				C762A927232F692F004503C5 /* TestViewController14.storyboard */,
 			);
 			name = "RAC(绑定信号)";
 			sourceTree = "<group>";
@@ -537,6 +540,7 @@
 			files = (
 				C762A923232A4BD5004503C5 /* TestViewController13.storyboard in Resources */,
 				C747BB6722E84E8F0012999D /* LaunchScreen.storyboard in Resources */,
+				C762A928232F692F004503C5 /* TestViewController14.storyboard in Resources */,
 				C747BB6422E84E8F0012999D /* Assets.xcassets in Resources */,
 				C71600602320FB9200347F02 /* flags.plist in Resources */,
 				C701F1C723264CB90036F632 /* TestViewController10.storyboard in Resources */,

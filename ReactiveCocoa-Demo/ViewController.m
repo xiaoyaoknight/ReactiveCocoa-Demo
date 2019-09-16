@@ -146,7 +146,9 @@
  RAC(绑定信号)
  */
 - (IBAction)bindSignal:(id)sender {
-    [self.navigationController pushViewController:[TestViewController14 new] animated:YES];
+    UIStoryboard *czsb = [UIStoryboard storyboardWithName:@"TestViewController14" bundle:nil];
+    TestViewController14 *test14 = [czsb instantiateViewControllerWithIdentifier:@"TestViewController14"];
+    [self.navigationController pushViewController:test14 animated:YES];
 }
 
 /**
